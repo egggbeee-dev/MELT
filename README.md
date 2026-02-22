@@ -1,6 +1,6 @@
 # MELT: A Style-Adaptive Multimodal Folktale Generation Framework for Underrepresented Cultures
 
-This repository provides the official implementation of MELT (Multimodal Engine for Localized Tales), a unified framework for culturally adaptive story generation across text, illustration, and audio. Users can use this codebase to generate their own localized multimodal content.
+This is the repository that contains source code for the [https://dori943.github.io/MELT.github.io/](https://dori943.github.io/MELT.github.io/).
 
 ## 🚀 Getting Started
 You can run all `.ipynb` files directly in **Google Colab** for easy testing and reproduction.
@@ -22,11 +22,16 @@ To generate images using our proposed method, please follow these steps:
 
 ---
 
-## 📖 Further Reading & Reference
-Detailed information about this research can be found on our official project website:
-* **Project Page**: [https://dori943.github.io/MELT.github.io/](https://dori943.github.io/MELT.github.io/)
-
-Comprehensive methodologies and findings will also be available in our forthcoming research paper.
+If you find MELT useful for your work please cite:
+```
+@article{MELT2026
+  author    = {Hanbi Choi, Yuri Kim, Dohee Kim, Heejae Shin and Minsu Lee},
+  title     = {MELT: A Style-Adaptive Multimodal Folktale Generation Framework for Underrepresented Cultures},
+  journal   = {Forthcoming / Under Review},
+  year      = {2026},
+  url       = {https://dori943.github.io/MELT.github.io/}
+}
+```
 
 ---
 
