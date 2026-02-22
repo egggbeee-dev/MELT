@@ -1,0 +1,17 @@
+[[datasets]]
+
+[[datasets.subsets]]
+num_repeats = 2
+image_dir = "/content/drive/MyDrive/Loras/Kalighat500_mainwoman/dataset"
+
+[general]
+resolution = 1024
+shuffle_caption = true
+keep_tokens = 1
+flip_aug = false
+caption_extension = ".txt"
+enable_bucket = true
+bucket_no_upscale = false
+bucket_reso_steps = 64
+min_bucket_reso = 256
+max_bucket_reso = 4096
