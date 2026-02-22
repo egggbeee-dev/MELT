@@ -15,7 +15,7 @@ You can run all `.ipynb` files directly in **Google Colab** for easy testing and
 
 ### Working with `MELT_T2I.ipynb`
 To generate images using our proposed method, please follow these steps:
-1.  **Upload LoRA files**: Upload your specific LoRA weight files to your Colab environment.
+1.  **Upload the `Loras` files**: Upload the requird files to your Colab environment.
 2.  **Path Configuration**: Modify the file paths within the code to point to your uploaded LoRA files.
 3.  **Customization**: You can customize the output filenames for the generated images directly in the script.
 
