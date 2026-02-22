@@ -1,5 +1,6 @@
 # MELT: A Style-Adaptive Multimodal Folktale Generation Framework for Underrepresented Cultures
 
+This repository provides the official implementation of MELT (Multimodal Engine for Localized Tales), a unified framework for culturally adaptive story generation across text, illustration, and audio. Users can use this codebase to generate their own localized multimodal content.
 
 ## 🚀 Getting Started
 You can run all `.ipynb` files directly in **Google Colab** for easy testing and reproduction.
