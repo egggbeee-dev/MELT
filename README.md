@@ -1,43 +1,84 @@
 # MELT: A Style-Adaptive Multimodal Folktale Generation Framework for Underrepresented Cultures
 
-This is the repository that contains source code for the [https://dori943.github.io/MELT.github.io/](https://dori943.github.io/MELT.github.io/).
-
-## 🚀 Getting Started
-You can run all `.ipynb` files directly in **Google Colab** for easy testing and reproduction.
-
-### Notebook Descriptions
-* **`koyha_LoRA_SDXL.ipynb`**: Implementation for training models by applying LoRA (Low-Rank Adaptation) to SDXL.
-* **`MELT_T2I.ipynb`**: The core T2I code showcasing our research results.
-* **`SDXL_T2I.ipynb`**: Standard image generation code using the base SDXL 1.0 model.
+MELT is a multimodal framework for culturally adaptive folktale generation across text, image, and audio.  
+It is designed to support underrepresented traditions through lightweight, data-efficient adaptation.
+This repository provides core components of the text generation, LoRA-based style adaptation, and text-to-image (T2I) pipelines described in our paper.
 
 ---
 
-## 🛠 Usage Instructions
+## Repository Structure
 
-### Working with `MELT_T2I.ipynb`
-To generate images using our proposed method, please follow these steps:
-1.  **Upload the `Loras` files**: Upload the requird files to your Colab environment.
-2.  **Path Configuration**: Modify the file paths within the code to point to your uploaded LoRA files.
-3.  **Customization**: You can customize the output filenames for the generated images directly in the script.
+### Image/
+Core image-generation notebooks:
+
+- `MELT_T2I.ipynb` – Main T2I pipeline used for MELT experiments  
+- `SDXL_T2I.ipynb` – Baseline image generation using SDXL 1.0  
+- `kohya_LoRA_SDXL.ipynb` – LoRA training pipeline for SDXL-based style adaptation  
+
+These notebooks reflect the primary experimental setup used in the study.
 
 ---
 
-If you find MELT useful for your work please cite:
-```
-@article{MELT2026
-  author    = {Hanbi Choi, Yuri Kim, Dohee Kim, Heejae Shin and Minsu Lee},
+### Text/
+Text generation and prompt construction notebooks:
+
+- `TextGeneration_Korean.ipynb`  
+- `TextGeneration_Bengali.ipynb`  
+- `imagePromptGeneration.ipynb`  
+
+These files provide representative implementations of the text generation and prompt formulation process described in the manuscript.
+
+---
+
+### Loras/
+This folder contains a subset of the datasets and LoRA structures used during training.
+
+Due to dataset licensing conditions, file size limitations, and project organization decisions, only part of the original materials is included in this public release. The provided files illustrate the training structure and directory format used in our experiments.
+
+---
+
+## Running the Code
+
+All `.ipynb` files can be executed in Google Colab.
+
+Basic workflow:
+
+1. Upload or clone the repository into your Colab environment.  
+2. Install required dependencies (e.g., Diffusers, Transformers).  
+3. Upload the necessary LoRA weight files.  
+4. Adjust file paths inside the notebooks as needed.  
+5. Execute the notebooks sequentially.
+
+---
+
+## Reproducibility
+
+This repository contains the core experimental pipelines used in the paper.  
+Some auxiliary scripts, intermediate experiment variants, and large-scale assets are not included in this release.
+
+The goal of this repository is to provide sufficient materials to understand and reproduce the main methodology described in the manuscript.
+
+For questions regarding reproducibility, please open an issue.
+
+---
+
+## Citation
+
+If you use this work in your research, please cite:
+
+@article{MELT2026,
+  author    = {Hanbi Choi and Yuri Kim and Dohee Kim and Heejae Shin and Minsu Lee},
   title     = {MELT: A Style-Adaptive Multimodal Folktale Generation Framework for Underrepresented Cultures},
   journal   = {Forthcoming / Under Review},
   year      = {2026},
   url       = {https://dori943.github.io/MELT.github.io/}
 }
-```
 
 ---
 
-## ⚠️ Copyright & License
-All code in this repository was developed for academic research purposes. 
-**Strictly prohibited:** Unauthorized copying, redistribution, or commercial use of these materials is strictly forbidden.
+## License
 
----
-© 2026 Your Name/Team. All rights reserved.
+This repository is released for academic research purposes.  
+For inquiries regarding commercial use or redistribution, please contact the authors.
+
+© 2026 MELT Research Team
