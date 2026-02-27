@@ -17,7 +17,6 @@ Core image-generation notebooks:
 
 These notebooks reflect the primary experimental setup used in the study.
 
----
 
 ### Text/
 Text generation and prompt construction notebooks:
@@ -28,14 +27,12 @@ Text generation and prompt construction notebooks:
 
 These files provide representative implementations of the text generation and prompt formulation process described in the manuscript.
 
----
 
 ### Loras/
 This folder contains a subset of the datasets and LoRA structures used during training.
 
 Due to dataset licensing conditions, file size limitations, and project organization decisions, only part of the original materials is included in this public release. The provided files illustrate the training structure and directory format used in our experiments.
 
----
 
 ## Running the Code
 
@@ -49,7 +46,6 @@ Basic workflow:
 4. Adjust file paths inside the notebooks as needed.  
 5. Execute the notebooks sequentially.
 
----
 
 ## Reproducibility
 
@@ -60,7 +56,6 @@ The goal of this repository is to provide sufficient materials to understand and
 
 For questions regarding reproducibility, please open an issue.
 
----
 
 ## Citation
 
@@ -74,7 +69,6 @@ If you use this work in your research, please cite:
   url       = {https://dori943.github.io/MELT.github.io/}
 }
 
----
 
 ## License
 
