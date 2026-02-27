@@ -1,9 +1,16 @@
 # MELT: A Style-Adaptive Multimodal Folktale Generation Framework for Underrepresented Cultures
 
 MELT is a multimodal framework for culturally adaptive folktale generation across text, image, and audio.  
-It is designed to support underrepresented traditions through lightweight, data-efficient adaptation.
+It is designed to support underrepresented traditions through lightweight, data-efficient adaptation.  
 This repository provides core components of the text generation, LoRA-based style adaptation, and text-to-image (T2I) pipelines described in our paper.
 
+## Architecture
+
+<p align="center">
+  <img src="Image/MELT_figure.png" alt="MELT Architecture" width="850">
+</p>
+
+*Overview of the MELT framework.*
 
 ## Repository Structure
 
