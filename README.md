@@ -4,7 +4,6 @@ MELT is a multimodal framework for culturally adaptive folktale generation acros
 It is designed to support underrepresented traditions through lightweight, data-efficient adaptation.
 This repository provides core components of the text generation, LoRA-based style adaptation, and text-to-image (T2I) pipelines described in our paper.
 
----
 
 ## Repository Structure
 
