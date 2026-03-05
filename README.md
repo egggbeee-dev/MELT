@@ -1,4 +1,4 @@
-# MELT: A Style-Adaptive Multimodal Folktale Generation Framework for Underrepresented Cultures
+# 🌏 MELT: A Style-Adaptive Multimodal Folktale Generation Framework for Underrepresented Cultures
 
 MELT is a multimodal framework for culturally adaptive folktale generation across text, image, and audio.  
 It is designed to support underrepresented traditions through lightweight, data-efficient adaptation.  
@@ -67,13 +67,16 @@ For questions regarding reproducibility, please open an issue.
 
 If you use this work in your research, please cite:
 
+```bibtex
 @article{MELT2026,
-  author    = {Hanbi Choi and Yuri Kim and Dohee Kim and Heejae Shin and Minsu Lee},
-  title     = {MELT: A Style-Adaptive Multimodal Folktale Generation Framework for Underrepresented Cultures},
-  journal   = {Forthcoming / Under Review},
-  year      = {2026},
-  url       = {https://dori943.github.io/MELT.github.io/}
+  author  = {Hanbi Choi and Yuri Kim and Dohee Kim and Heejae Shin and Minsu Lee},
+  title   = {MELT: A Style-Adaptive Multimodal Folktale Generation Framework for Underrepresented Cultures},
+  journal = {Forthcoming / Under Review},
+  year    = {2026},
+  url     = {https://dori943.github.io/MELT.github.io/},
+  note    = {Code available at https://github.com/egggbeee-dev/MELT/}
 }
+```
 
 
 ## License
